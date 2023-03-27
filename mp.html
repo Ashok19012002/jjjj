@@ -10,59 +10,86 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
     /* Add styles for the page here */
-    .section {
-      height: 300px;
-      background-color: #f1f1f1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 30px;
-      font-weight: bold;
-      cursor: pointer;
-      border: 2px solid #ddd;
-      padding: 20px;
-      margin: 10px;
-    }
-    .section:hover {
-      background-color: #ddd;
-    }
-    /* Add styles for the heading here */
-    .heading {
-      text-align: center;
-      font-size: 50px;
-      font-weight: bold;
-      padding: 50px 0 20px 0;
+   /* Add styles for the page here */
+   .section {
+  height: 300px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  box-shadow: 0px 0px 10px #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 1.0;
+  text-shadow: 2px 2px 2px #333, -2px -2px 2px #333; /* Add text shadow with two colors */
+}
+
+.section:hover {
+  background-color: #4CAF50;
+  text-decoration: none;
+  border-color: #333;
+  box-shadow: 0px 0px 10px #333;
+  color: #fff;
+}
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 50px 0 20px 0;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #333;
+  box-shadow: 0px 0px 10px #000;
+  background-image: url("https://www.hdfc.com/content/dam/housingdevelopmentfinancecorp/blogImage/living_and_lifestyle/beginners-manual-sowing-creating-saplings/a-beginners-manual-to-sowing-creating-saplings.jpeg");
+}
+
+    /* Add styles for the body here */
+    body {
+      background-image: url("https://etimg.etb2bimg.com/photo/95217315.cms");
+      background-size: cover;
+      background-position: center;
     }
   </style>
 </head>
 <body>
   
-<div class="container-fluid">
-  <!-- Add the heading here -->
-  <h1 class="heading">MY ECO-PAGE</h1>
-  <div class="row">
-    <div class="col-sm-6 col-md-6 col-lg-6">
-      <a href="submit.html">
-        <div class="section">Submit Waste</div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-md-6 col-lg-6">
-      <a href="save_energy.html">
-        <div class="section">How to Save Energy</div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-md-6 col-lg-6">
-      <a href="use_transport.html">
-        <div class="section">How to Use Transport Efficiently</div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-md-6 col-lg-6">
-      <a href="my_coins.html">
-        <div class="section">My Coins</div>
-      </a>
+  <div class="container-fluid">
+    <!-- Add the heading here -->
+    <h1 class="heading">MY ECO-PAGE</h1>
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <a href="submit.html">
+          <div class="section">Submit Waste</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <a href="mycoins.html">
+          <div class="section">My Coins</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <a href="transport.html">
+          <div class="section">How to Use Transport Efficiently</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <a href="energy,html">
+          <div class="section">How to Save Energy</div>
+        </a>
+      </div>
     </div>
   </div>
-</div>
-
+  
 </body>
 </html>
